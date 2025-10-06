@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MySuite1" verbose="7" parallel="false">
+    
+    <test name="Methods Executions">
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="com.TestNGPractice.TestNGExecutionOrder"/>
+             <class name="com.TestNGPractice.TestNGTest"/>
+        </classes>
+    </test>
+
+</suite>

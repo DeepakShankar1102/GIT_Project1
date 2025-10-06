@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MySuite2" verbose="7" parallel="false">
+    
+    <test name="Groups Executions">
+    <groups>
+    <run>
+    <include name="Regression"></include>
+     <exclude name="Smoke"></exclude>
+         </run>
+    </groups>
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="com.TestNGPractice.TestNGGroups"/>
+           
+        </classes>
+    </test>
+
+</suite>
